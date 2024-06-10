@@ -1,0 +1,29 @@
+{
+  "python.testing.pytestArgs": ["store"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "database": "storefront3",
+      "username": "root",
+      "name": "Local instance",
+      "askForPassword": true
+    }
+  ],
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.useInlineCompletions": true,
+  "emmet.includeLanguages": {
+    "html": "html",
+    "django-html": "html"
+  },
+  "emmet.preferences": {}
+}

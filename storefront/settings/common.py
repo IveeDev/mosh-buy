@@ -167,7 +167,7 @@ DJOSER = {
 }
 
 SIMPLE_JWT = {
-    'AUTH_HEADER_TYPES': ('JWT',),
+    'AUTH_HEADER_TYPES': ('JWT', 'Bearer'),
     'ACCESS_TOKEN_LIFETIME': timedelta(days=1)
 }
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

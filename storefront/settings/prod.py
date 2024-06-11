@@ -8,4 +8,4 @@ DEBUG = False
 
 SECRETE_KEY = os.environ['SECRETE_KEY']
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['iviidev.pythonanywhere.com']

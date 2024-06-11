@@ -8,4 +8,16 @@ DEBUG = False
 
 SECRETE_KEY = os.environ['SECRETE_KEY']
 
-ALLOWED_HOSTS = ['iviidev.pythonanywhere.com']
+ALLOWED_HOSTS = []
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '3306',
+    }
+}

@@ -60,7 +60,6 @@ prompt_toolkit==3.0.46
 psutil==5.9.8
 pycodestyle==2.11.1
 pycparser==2.22
-pygraphviz==1.13
 PyJWT==2.8.0
 pytest==8.2.2
 pytest-django==4.8.0

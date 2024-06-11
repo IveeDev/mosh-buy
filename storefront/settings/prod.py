@@ -8,7 +8,7 @@ DEBUG = False
 
 SECRETE_KEY = os.environ['SECRETE_KEY']
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['eazy-buy-q4r8.onrender.com']
 
 
 DATABASES = {

@@ -7,33 +7,54 @@ This is a backend project for an e-commerce application. The API provides functi
 - View available products
 - Manage product collections
 - Place and manage orders
-- Authentication and authorization (if applicable)
+- Authentication and authorization
 - Comprehensive testing of endpoints
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Technologies
+
+- Backend Framework: Pytho Django
+- Database: MySQL
+- Testing: pytest
+- Authentication: JWT
+- Tools: Git, Postman
+
+## Installation
+
+### Prerequsite
+
+- Make sure you have the following installed:
+  - Python or Node.js
+  - PostgreSQL/MySQL for database
+  - pip for Python or npm for Node.js projects
+  - Git for version control
+
+### Steps to Install
+
+1. #### Clone the repository:
 
 ```bash
-pip install foobar
+git clone https://github.com//IveeDev/mosh-buy
+cd mosh-buy
 ```
 
-## Usage
+2. #### Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. #### Set up environment variables:
+
+- Create a .env file in the project root and add your environment variables:
 
 ```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '',
+        'HOST': 'localhost',
+        'USER': '',
+        'PASSWORD': ''
+    }
+}
 ```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.

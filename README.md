@@ -1,6 +1,18 @@
-# Storefront
+# Storefront Backend API
 
-Foobar is a Python library for dealing with word pluralization.
+This is a backend project for an e-commerce application. The API provides functionality to manage products, collections, and orders, allowing clients to interact with the store via RESTful endpoints. Additionally, the project includes tests to ensure the reliability of the various endpoints.
+
+## Features
+
+# View available products
+
+# Manage product collections
+
+# Place and manage orders
+
+# Authentication and authorization (if applicable)
+
+# Comprehensive testing of endpoints
 
 ## Installation
 

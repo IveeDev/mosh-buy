@@ -12,20 +12,20 @@ This is a backend project for an e-commerce application. The API provides functi
 
 ## Technologies
 
-- Backend Framework: Pytho Django
+- Backend Framework: Python Django
 - Database: MySQL
 - Testing: pytest
 - Authentication: JWT
 - Tools: Git, Postman
 
-## Installation
+# Installation
 
 ### Prerequsite
 
 - Make sure you have the following installed:
-  - Python or Node.js
-  - PostgreSQL/MySQL for database
-  - pip for Python or npm for Node.js projects
+  - Python
+  - MySQL for database
+  - pip for Python
   - Git for version control
 
 ### Steps to Install
@@ -33,7 +33,7 @@ This is a backend project for an e-commerce application. The API provides functi
 1. #### Clone the repository:
 
 ```bash
-git clone https://github.com//IveeDev/mosh-buy
+git clone https://github.com/IveeDev/mosh-buy
 cd mosh-buy
 ```
 
@@ -57,4 +57,40 @@ DATABASES = {
         'PASSWORD': ''
     }
 }
+```
+
+4. ### Database setup:
+
+```bash
+python manage.py migrate
+```
+
+5. ### Run the application:
+
+```bash
+python manage.py runserver
+```
+
+# Endpoints
+
+### Products
+
+- GET /products - Retrieve a list of products
+- GET /products/ - Retrieve details of a specific product
+- POST /products - Add a new product
+- PUT /products/ - Update product details
+- DELETE /products/ - Delete a product
+
+# Collections
+
+- GET /collections - Retrieve all collections
+- POST /collections - Add a new collection
+- DELETE /collections/ - Delete a collection
+
+# Testing
+
+To ensure the API works as expected, various tests have been written. You can run the tests using the following commands:
+
+```bash
+pytest
 ```

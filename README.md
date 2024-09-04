@@ -4,17 +4,12 @@ This is a backend project for an e-commerce application. The API provides functi
 
 ## Features
 
-# View available products
-
-# Manage product collections
-
-# Place and manage orders
-
-# Authentication and authorization (if applicable)
-
-# Comprehensive testing of endpoints
-
-## Installation
+View available products
+Manage product collections
+Place and manage orders
+Authentication and authorization (if applicable)
+Comprehensive testing of endpoints
+Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
